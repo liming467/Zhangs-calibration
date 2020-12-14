@@ -1,7 +1,8 @@
 # Zhangs-calibration
 The project is aim to calibrate camera's intrinsic parameters, extrinsic parameters for both camera system, and reconstruction. It is supposed 
 that chess board images from different angles has been got. 
-The calibration functions are realized mainly by opencv 4.1.1. The code is wrote in C++ combined with QT. The used IDE is VS2017. 
+The calibration functions are realized mainly by opencv 4.1.1. The code is wrote in C++ combined with QT. The used IDE is VS2017.
+ ![image](https://github.com/liming467/Zhangs-calibration/blob/main/ui.png)
 本软件采用张氏标定法结合棋盘格标定板进行双相机内、外参数计算，最后利用已经得到的左右相机图像匹配点坐标进行三维重建。假设已经得到了标定板处于不同姿态下的左右标定图片，并且已经得到了计算点在左右相机的图像匹配点坐标。
 操作步骤主要分为三个部分：
 ## （1）	内参标定
